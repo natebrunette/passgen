@@ -5,9 +5,9 @@ namespace Tebru
 {
     struct Characters
     {
-        static const char ALPHA[];
-        static const char NUMERIC[];
-        static const char SYMBOL[];
+        static const std::string ALPHA;
+        static const std::string NUMERIC;
+        static std::string SYMBOL;
     };
 }
 

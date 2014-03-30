@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Characters.h"
 #include "Generator.h"
 
 using namespace Tebru;
@@ -33,6 +34,11 @@ int main(int argc, const char * argv[])
             if ("--no-symbols" == argument)
             {
                 percentSymbols = 0;
+            }
+
+            if ("--symbols" == argument)
+            {
+                Characters::SYMBOL = (std::string) argv[i + 1];
             }
 
         }

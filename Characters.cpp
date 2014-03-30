@@ -3,7 +3,7 @@
 
 namespace Tebru
 {
-    const char Characters::ALPHA[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    const char Characters::NUMERIC[] = "1234567890";
-    const char Characters::SYMBOL[] = "`~!@#$%^&*()-_=+\\|]}[{'\";:/?.>,<";
+    const std::string Characters::ALPHA = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const std::string Characters::NUMERIC = "1234567890";
+    std::string Characters::SYMBOL = "`~!@#$%^&*()-_=+\\|]}[{'\";:/?.>,<";
 }

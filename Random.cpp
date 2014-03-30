@@ -4,9 +4,9 @@
 
 namespace Tebru
 {
-    std::vector<char> & Random::append(const char charPool[], const int &randomLength, std::vector<char> &randomString) const
+    std::vector<char> & Random::append(const std::string charPool, const int &randomLength, std::vector<char> &randomString) const
     {
-        auto stringLength = (int) strlen(charPool);
+        auto stringLength = charPool.length();
 
         for (auto i = 0; i < randomLength; ++i)
         {
