@@ -29,6 +29,7 @@
 		337B637E3820C00251270554 /* Generator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Generator.cpp; sourceTree = "<group>"; };
 		337B68FC4708522EDBC5AE47 /* Password.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Password.1; sourceTree = "<group>"; };
 		337B6E2CB0F048216F100F78 /* Password */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Password; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC10BB91B43F70A235709D2C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 			children = (
 				337B67B58FAB4372DE386DD1 /* Products */,
 				337B6293C15063ACE38AB738 /* Password */,
+				AC10BB91B43F70A235709D2C /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
